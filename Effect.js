@@ -29,7 +29,7 @@ function contestacion1()
 function contestacion2()
 {
 
-	var qs = document.getElementsByName("e1");
+	var qs = document.getElementsByName("e2");
 	var numberofradios= qs.length;
 
 
@@ -38,18 +38,16 @@ function contestacion2()
 		{
 
 			
-			document.getElementById("text1").innerHTML="Correcto";
-		
+			document.getElementById("text2").innerHTML="Correcto";
+		}
 			else{
 
-			document.getElementById("text1").innerHTML="Incorrecto";
+			document.getElementById("text2").innerHTML="Incorrecto";
 
 			}
-
-		}
-
-
 }
+
+
 function contestacion4()
 {
 
