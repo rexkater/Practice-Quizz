@@ -1,0 +1,61 @@
+body {background-image:url('http://www.indiwall.com/big-wallpaper/1920x1200/hd-wallpapers-grafikkort-problem-floor-darkwood-gallery-1920x1200-wallpaper.jpg');
+		color:limegreen;}
+
+h1 {text-shadow: 2px 2px black;
+	text-decoration: underline;}
+
+#div1 {background-image:url('http://www.genesiscamden.org/images/backgrounds/green2.jpg');
+		color:black;
+		border-style: solid;
+		border-width: 3px;}
+
+#div2 {background-image:url('http://www.pptbackgrounds.net/uploads/blackboard-backgrounds-wallpapers.jpg');
+		color: white;
+		border-style: solid;
+		border-width: 3px;
+		border-color: black;}
+
+#div3 {background-image:url('http://www.genesiscamden.org/images/backgrounds/green2.jpg');
+		color:black;
+		border-style: solid;
+		border-width: 3px;}
+
+
+#div4 {background-image:url('http://www.pptbackgrounds.net/uploads/blackboard-backgrounds-wallpapers.jpg');
+		color: white;
+		border-style: solid;
+		border-width: 3px;
+		border-color: black;}
+
+#div5 {background-image:url('http://www.genesiscamden.org/images/backgrounds/green2.jpg');
+		color:black;
+		border-style: solid;
+		border-width: 3px;}
+
+div.box1 {width:220px;
+padding:10px;
+border:1px solid black;
+margin:0px;
+background-color:white;}
+
+div.box2 {width:220px;
+padding:10px;
+border:1px solid black;
+margin:0px;
+background-color:white;}
+
+#text2 {color:black;}
+
+div.box4 {width:220px;
+padding:10px;
+border:1px solid black;
+margin:0px;
+background-color:white;}
+
+#text4 {color:black;}
+
+div.box5 {width:220px;
+padding:10px;
+border:1px solid black;
+margin:0px;
+background-color:white;}
