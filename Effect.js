@@ -26,6 +26,30 @@ function contestacion1()
 	}
 }
 
+function contestacion2()
+{
+
+	var qs = document.getElementsByName("e1");
+	var numberofradios= qs.length;
+
+
+
+		if(qs [0].checked && qs[1].checked && !qs[2].checked)
+		{
+
+			
+			document.getElementById("text1").innerHTML="Correcto";
+		
+			else{
+
+			document.getElementById("text1").innerHTML="Incorrecto";
+
+			}
+
+		}
+
+
+}
 function contestacion4()
 {
 
