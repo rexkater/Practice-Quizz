@@ -26,24 +26,35 @@ function contestacion1()
 	}
 }
 
+function contestacion2()
 
-function contestacion3()
-{
+{       var qs = document.getElementsByName("e2");
+        var numberofradios= qs.length;
+
+        if(qs [0].checked && qs[2].checked && !qs[1].checked){
+
+                document.getElementById("text2").innerHTML="Correcto";
+        }
+
+        	else{
+               		 document.getElementById("text2").innerHTML="Incorrecto";
+        	}
+}
+
+function contestacion3(){
 
 	var qs = document.getElementsByName("e3");
 	var numberofradios= qs.length;
 
+		if(qs [0].value==0){
 
-
-		if(qs [0].value==0)
-		{
-
-			
 			document.getElementById("text3").innerHTML="Correcto";
+
 		}
+
 			else{
 
-			document.getElementById("text3").innerHTML="Incorrecto";
+					document.getElementById("text3").innerHTML="Incorrecto";
 
 			}
 }
